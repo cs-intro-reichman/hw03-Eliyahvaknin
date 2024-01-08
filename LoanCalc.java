@@ -46,7 +46,7 @@ public class LoanCalc {
         high = loan;
         g = (low + high) / 2;
       
-        while ((high - low) > jacepsilon) {
+        while ((high - low) > epsilon) {
             if (endBalance(loan, rate, n, g) * endBalance(loan, rate, n, low) > 0) {
                 low = g;
             } else {
