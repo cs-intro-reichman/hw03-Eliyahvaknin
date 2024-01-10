@@ -1,4 +1,4 @@
- static double endBalance;
+  static double endBalance;
     static int iterationCounter;
 
     public static void main(String[] args) {
@@ -46,4 +46,3 @@
         System.out.println("number of iterations: " + iterationCounter);
     }
  }   
-
