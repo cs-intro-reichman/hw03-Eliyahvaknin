@@ -11,7 +11,16 @@ public class LowerCase {
     * Non-letter characters are left as is.
     */
     public static String lowerCase(String s) {
+        String rasult  =""; 
+        for (int i = 0; i < s.length(); i++){
+            if (Character.isLetter(s.charAt(i))){
+                rasult += Character.toLowerCase(s.charAt(i));
+            }
+            else{
+                rasult += s.charAt(i);
+            }
+        }
         // Replace the following statement with your code
-        return null;
+        return rasult;
     }
 }
