@@ -20,7 +20,6 @@ public class LowerCase {
                 rasult += s.charAt(i);
             }
         }
-        // Replace the following statement with your code
         return rasult;
     }
 }
