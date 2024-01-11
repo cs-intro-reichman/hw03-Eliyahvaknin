@@ -82,4 +82,4 @@ public class LoanCalc {
 
     	return balance;
 	}
-}// End of class LoanCalc
+}

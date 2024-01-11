@@ -22,4 +22,4 @@ public class LowerCase {
         }
         return rasult;
     }
-}// end class
+}
